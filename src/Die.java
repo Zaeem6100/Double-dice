@@ -17,6 +17,7 @@ public class Die {
         return a.equals(b)?true:false;
     }
 
+    
     @Override
     public String toString() {
         switch (value){
