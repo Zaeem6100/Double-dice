@@ -14,10 +14,10 @@ public class Die {
     public int roll() { return 1 + (int) (Math.random() * 6);}
 
     public boolean equal(Die a,Die b){
-        return a.equals(b)?true:false;
+        return a.value==b.value?true:false;
     }
 
-    
+
     @Override
     public String toString() {
         switch (value){
