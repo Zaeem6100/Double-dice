@@ -2,6 +2,7 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class DoubleDice {
+
     private static Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
         float amount = 0.0F,bet = 0.0F;
@@ -15,8 +16,7 @@ public class DoubleDice {
 
 
         do {
-            if (bet>amount ){
-                System.out.println("\n\nYou are Out of Money!\nBetter Luck Next Time !");
+            if (bet>amount ){ System.out.println("\n\nYou are Out of Money!\nBetter Luck Next Time !");
                 return;
             }
 
